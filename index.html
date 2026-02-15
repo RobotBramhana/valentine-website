@@ -1,29 +1,32 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>For You ❤️</title>
-<link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="card">
-<h1 id="titleText">Hey ❤️</h1>
-<p id="mainMessage"></p>
 
+  <div class="card">
+    <h1 id="titleText"></h1>
 
-<div class="buttons" id="btnArea">
-<button class="yes" onclick="sayYes()">Yes 😊</button>
-<button class="no" id="noBtn">No 😜</button>
-</div>
+    <p id="mainMessage"></p>
 
+    <div class="buttons" id="btnArea">
+      <button class="yes" id="yesBtn">Yes 😊</button>
+      <button class="no" id="noBtn">No 😜</button>
+    </div>
 
-<div class="message" id="message"></div>
-</div>
+    <div class="message" id="message"></div>
+  </div>
 
+  <!-- Background music -->
+  <audio id="bgMusic" loop></audio>
 
-<script src="config.js"></script>
-<script src="script.js"></script>
+  <!-- Config first, then script -->
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+
 </body>
 </html>
