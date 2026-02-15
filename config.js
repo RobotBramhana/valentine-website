@@ -10,7 +10,8 @@ const CONFIG = {
   message: "You make my world brighter every single day. Would you like to be my Valentine?",
 
   // Yes click response
-  yesResponse: "You just made me the happiest person alive ❤️",
+  yesResponse: "That is the best decision have made ❤️ \
+    Now turn up the volume!",
 
   // Music file name
   musicFile: "romantic.mp3",
